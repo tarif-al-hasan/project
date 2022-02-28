@@ -1,0 +1,52 @@
+p {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.package_plan {
+  background-color: #f3f3f3;
+}
+.pack_title {
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+.package_cart {
+  width: 70%;
+  margin: 0 auto;
+}
+.packge_price.border.border-4.rounded-circle {
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto;
+  padding: 33px 12px;
+}
+a.btn.btn-primary {
+  background: #bc9516;
+  outline: none;
+  border: none;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  height: 23rem;
+}
+.card-body.text-center::before {
+  content: url(https://onlybullish.com/wp-content/uploads/2020/01/4s56df465sf.png);
+  position: absolute;
+  left: 13px;
+  top: 0px;
+}
+.our-info {
+  position: relative;
+}
+i.fa-solid.fa-square-check {
+  color: #bc9516;
+  margin-right: 10px;
+}
